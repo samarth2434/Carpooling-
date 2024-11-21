@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+
+<main>
+    <section id="find-ride">
+        <h2>Find a Ride</h2>
+        <form id="search-form">
+            <label for="from">From:</label>
+            <select id="from" required>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Indore">Indore</option>
+                <option value="Sehore">Sehore</option>
+                <option value="VIT Bhopal">VIT Bhopal</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Pune">Pune</option>
+                <option value="Aashta">Aashta</option>
+                <option value="Ujjain">Ujjain</option>
+                <option value="Itarsi">Itarsi</option>
+            </select>
+            <label for="to">To:</label>
+            <select id="to" required>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Indore">Indore</option>
+                <option value="Sehore">Sehore</option>
+                <option value="VIT Bhopal">VIT Bhopal</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Pune">Pune</option>
+                <option value="Aashta">Aashta</option>
+                <option value="Ujjain">Ujjain</option>
+                <option value="Itarsi">Itarsi</option>
+            </select>
+            <label for="pickup-location">Pickup Location:</label>
+            <select id="pickup-location" required>
+                <option value="Railway Station Bhopal">Railway Station Bhopal</option>
+                <option value="Rani Kamplapati Station">Rani Kamplapati Station</option>
+                <option value="Laalghati Bus Stand">Laalghati Bus Stand</option>
+                <option value="VIT Bhopal Boys Hostel">VIT Bhopal Boys Hostel</option>
+                <option value="VIT Bhopal Girls Hostel">VIT Bhopal Girls Hostel</option>
+                <option value="VIT Gate">VIT Gate</option>
+                <option value="Kothri">Kothri</option>
+                <option value="Sehore Bus Stand">Sehore Bus Stand</option>
+            </select>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <button type="submit">Search</button>
+            <button type="button" id="confirm-ride" style="display: none">Confirm Ride</button>
+        </form>
+        <div id="search-results">
+            <!-- Display search results here -->
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

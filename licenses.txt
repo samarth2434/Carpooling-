@@ -1,0 +1,6 @@
+Licenses:
+
+RideTogether is licensed under the following licenses:
+
+Code License: MIT License
+Documentation License: Creative Commons Attribution 4.0 International License

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RideTogether - Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Join RideTogether</h1>
+    <form class="signup-form" id="signupForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="button" onclick="requestOTPEmail()">Send OTP to Email</button>
+      <button type="button" onclick="requestOTPPhone()">Send OTP to Phone</button>
+      <div id="otpInput" style="display: none;">
+        <input type="text" placeholder="Enter OTP" required>
+        <button type="submit">Verify OTP</button>
+      </div>
+    </form>
+    <p>Already have an account? <a href="#">Log in</a></p>
+  </div>
+
+  <script>
+    function requestOTPEmail() {
+      var email = document.getElementById("email").value;
+      
+      if (email) {
+        alert("OTP sent to " + email);
+        document.getElementById("otpInput").style.display = "block";
+      } else {
+        alert("Please provide your email address");
+      }
+    }
+    
+    function requestOTPPhone() {
+      var phone = document.getElementById("phone").value;
+      
+      if (phone) {
+        alert("OTP sent to " + phone);
+        document.getElementById("otpInput").style.display = "block";
+      } else {
+        alert("Please provide your phone number");
+      }
+    }
+  </script>
+</body>
+</html>

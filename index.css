@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Whitney */
+@font-face{
+    font-family: Whitney;
+    font-weight: 300;
+    src:url(fonts/Whitney/Whitney-300.woff) format("woff");
+}
+@font-face{
+    font-family: Whitney;
+    font-weight: 400;
+    src:url(fonts/Whitney/Whitney-400.woff) format("woff");
+}
+@font-face{
+    font-family: Whitney;
+    font-weight: 500;
+    src:url(fonts/Whitney/Whitney-500.woff) format("woff");
+}
+@font-face{
+    font-family: Whitney;
+    font-weight: 600;
+    src:url(fonts/Whitney/Whitney-600.woff) format("woff");
+}
+@font-face{
+    font-family: Whitney;
+    font-weight: 700;
+    src:url(fonts/Whitney/Whitney-700.woff) format("woff");
+}
+
+/* Ginto */
+@font-face {
+    font-family: Ginto;
+    font-weight:300;
+    src: url(fonts/Ginto/Ginto-300.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:400;
+    src: url(fonts/Ginto/Ginto-400.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:500;
+    src: url(fonts/Ginto/Ginto-500.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:600;
+    src: url(fonts/Ginto/Ginto-600.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:700;
+    src: url(fonts/Ginto/Ginto-700.woff) format("woff");
+}
+
+/* Ginto-Italic */
+@font-face {
+    font-family: Ginto;
+    font-weight:300;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-300-italic.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:400;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-400-italic.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:500;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-500-italic.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:600;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-600-italic.woff) format("woff");
+}
+@font-face {
+    font-family: Ginto;
+    font-weight:700;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-700-italic.woff) format("woff");
+}
+
+/* Ginto-Nord */
+@font-face{
+    font-family: GintoNord;
+    font-weight: 500;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"),
+       url(fonts/Ginto-Nord/Ginto-Nord-500.woff) format("woff");
+}
+@font-face{
+    font-family: GintoNord;
+    font-weight: 600;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"),
+       url(fonts/Ginto-Nord/Ginto-Nord-600.woff) format("woff");
+}
+@font-face{
+    font-family: GintoNord;
+    font-weight: 700;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"),
+       url(fonts/Ginto-Nord/Ginto-Nord-700.woff) format("woff");
+}
+
+/* gg-sans */
+@font-face {
+    font-family: "ggSans";
+    font-weight: 400;
+    src: url(fonts/gg-sans/ggsans-Normal.ttf);
+}
+@font-face {
+    font-family: "ggSans";
+    font-weight: 500;
+    src: url(fonts/gg-sans/ggsans-Medium.ttf);
+}
+@font-face {
+    font-family: "ggSans";
+    font-weight: 600;
+    src: url(fonts/gg-sans/ggsans-Semibold.ttf);
+}
+@font-face {
+    font-family: "ggSans";
+    font-weight: 700;
+    src: url(fonts/gg-sans/ggsans-Bold.ttf);
+}
+/* body {
+    background-color: #add8e6;
+  }
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main{
+   size-adjust: 5px;
+  }
+  p {
+    style="float: left; margin-right: 1em;"
+    size:50px;
+}
+main{
+    style="width: 100%; height: auto;
+}
+section{
+    display: inline-block;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .fancy-button:hover {
+    background-color: #ff9900;
+  } */ 
+  footer {
+    background-color: #2c2f33;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-content li {
+    margin-right: 1rem;
+  }
+  
+  .social-media h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media li {
+    margin-right: 1rem;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 1.5rem;
+  } */
+
+  * Dropdown Button */
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

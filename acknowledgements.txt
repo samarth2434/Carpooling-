@@ -1,0 +1,9 @@
+Acknowledgements:
+
+We would like to acknowledge the following individuals and organizations for their contributions to RideTogether:
+
+John Doe - Frontend Developer
+         - Backend Developer
+         - DataBase management
+Jane Smith - Marketing Strategy
+XYZ Corporation - Hosting Services
